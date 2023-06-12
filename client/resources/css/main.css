@@ -1,0 +1,136 @@
+/* nav */
+.nav {
+  background: linear-gradient(to right, rgb(88, 88, 202), rgb(182, 137, 217));
+  height: 15%;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* top: 50px;
+  padding: 4rem 2rem; */
+  margin-top: -150px;
+  border-right: 1px solid #e1e1e1;
+}
+.nav input{
+  margin-top: 0.5rem;
+}
+.nav select{width: 100%; 
+  margin-top: 0.5rem;
+}
+.nav label{margin-bottom: 1rem;}
+.nav p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* .navhead {
+  background: #f6f6f6;
+  padding: 1.7rem 2rem;
+  text-align: end;
+  position: relative;
+  height: 3rem;
+}
+.navhead svg,
+.nav > svg {
+  position: absolute;
+  left: 14px;
+    top: 6px;
+} */
+[v-cloak] {
+  display: none;
+}
+
+/* .modal */
+
+.modal select {
+  width: 63% !important;
+}
+
+.modal_header {
+  background: #000000;
+  padding: 1rem;
+}
+.modal_header svg{cursor: pointer;}
+.modal_body {
+  padding: 1rem;
+  width: 50rem;
+}
+.modal_body p {
+  font-size: 15px;
+}
+
+.modal_header button {
+  font-size: 15px;
+  background: none;
+  border: none;
+}
+
+/* 그외 */
+.editpage {
+  background: #ffffff;
+  border-left: 1px solid #dfdfdf;
+  height: -webkit-fill-available;
+  position: fixed;
+  width: 300px;
+  right: 0;
+  top: 86px;
+  padding: 4rem 2rem;
+}
+
+
+
+.name{color: #25253D; font-size: 2rem; text-align: center;} /* 파일 추가하기, 파일명 표준화 글자 색 */
+
+
+/* 탭 페이지 */
+.tab-container {
+  width: 100%;
+}
+
+.tab-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-list li {
+    border: 1px solid #ddd;
+    border-bottom: none;
+    border-left: none;
+  cursor: pointer;
+  padding: 5px 2rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background-color: white;
+  transition: all 0.2s ease;
+  border-radius: 20px 5px 0% 0%;
+}
+
+.tab-list li:hover {
+  color: #666;
+}
+
+.tab-list li.active {
+  color: #ffffff;
+  background: #9C9DF6;
+  border-bottom: none;
+}
+
+.tab-content {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+  border: 1px solid #ddd; /* 파일넣는 부분 테두리 */
+  min-height: 1rem;
+  height: 100%;
+}
+/* .tab-content select{margin: 1rem 0;} */
+
+/* 테이블 목록 페이지 */
+.content {
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  min-height: 50rem;
+}

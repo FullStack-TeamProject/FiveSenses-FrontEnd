@@ -1,0 +1,18 @@
+[2023.05.08 16:54:25.435] ★★★ Node.js를 활용한 Web Server 구동(Port:80) ★★★
+[2023.05.08 16:54:31.200] [HTTP] / (Method: GET, IP: ::1)
+[2023.05.08 16:54:31.242] [HTTP] /client/build/bundle.js (Method: GET, IP: ::1)
+[2023.05.08 16:54:31.246] [Error:404] /client/build/bundle.js/n Error: ENOENT: no such file or directory, stat 'C:\Users\mycom\Desktop\금오공대\client\build\bundle.js'/n
+[2023.05.08 16:54:31.298] [HTTP] /favicon.ico (Method: GET, IP: ::1)
+[2023.05.08 16:54:31.299] [Error:404] /favicon.ico/n Error: ENOENT: no such file or directory, stat 'C:\Users\mycom\Desktop\금오공대\favicon.ico'/n
+[2023.05.08 16:54:36.351] [HTTP] / (Method: GET, IP: ::1)
+[2023.05.08 16:54:36.361] [HTTP] /client/build/bundle.js (Method: GET, IP: ::1)
+[2023.05.08 16:54:36.363] [Error:404] /client/build/bundle.js/n Error: ENOENT: no such file or directory, stat 'C:\Users\mycom\Desktop\금오공대\client\build\bundle.js'/n
+[2023.05.08 17:29:29.433] ★★★ Node.js를 활용한 Web Server 구동(Port:80) ★★★
+[2023.05.08 17:29:40.330] [HTTP] / (Method: GET, IP: ::1)
+[2023.05.08 17:29:40.359] [HTTP] /client/build/bundle.js (Method: GET, IP: ::1)
+[2023.05.08 17:29:40.364] [Error:404] /client/build/bundle.js/n Error: ENOENT: no such file or directory, stat 'C:\takensoft\dev\nodejs\workspace\금오공대\client\build\bundle.js'/n
+[2023.05.08 17:29:46.957] [HTTP] / (Method: GET, IP: ::1)
+[2023.05.08 17:29:46.966] [HTTP] /client/build/bundle.js (Method: GET, IP: ::1)
+[2023.05.08 17:29:46.968] [Error:404] /client/build/bundle.js/n Error: ENOENT: no such file or directory, stat 'C:\takensoft\dev\nodejs\workspace\금오공대\client\build\bundle.js'/n
+[2023.05.08 17:30:02.194] [HTTP] / (Method: GET, IP: ::1)
+[2023.05.08 17:30:02.202] [HTTP] /client/build/bundle.js (Method: GET, IP: ::1)

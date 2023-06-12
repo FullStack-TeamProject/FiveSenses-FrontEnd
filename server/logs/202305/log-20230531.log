@@ -1,0 +1,3 @@
+[2023.05.31 12:46:56.023] [HTTP] / (Method: GET, IP: ::ffff:93.174.95.106)
+[2023.05.31 12:46:58.826] [HTTP] /favicon.ico (Method: GET, IP: ::ffff:93.174.95.106)
+[2023.05.31 12:46:58.829] [Error:404] /favicon.ico/n Error: ENOENT: no such file or directory, stat 'C:\Users\imj09\Desktop\dgcatholic-1\dgcatholic\favicon.ico'/n
